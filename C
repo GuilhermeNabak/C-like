@@ -4,6 +4,8 @@ int main() {
   int acc = 0; //Inicializa um contador
   char jogos;
 
+  printf("Resultados do participante:\n");
+
   for (int i = 0; i < 6; i++) {
     scanf("%c%*c", &jogos); //Varieavel recebe os caracteres
     if (jogos == 'V') { //Se venceu, adiciona 1 ao contador
