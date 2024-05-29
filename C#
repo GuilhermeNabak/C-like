@@ -5,6 +5,8 @@ class Program {
         int acc = 0; // Inicializa um contador
         char jogos;
 
+        Console.WriteLine("Resultados do participante:");
+
         for (int i = 0; i < 6; i++) {
             jogos = (char)Console.Read(); // Variável recebe os caracteres
             Console.Read(); // Lê e descarta o caractere de nova linha
