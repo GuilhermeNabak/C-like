@@ -5,7 +5,7 @@ class Program {
         int acc = 0; // Inicializa um contador
         char jogos;
 
-        Console.WriteLine("Resultados do participante:");
+        Console.WriteLine("Entrada:");
 
         for (int i = 0; i < 6; i++) {
             jogos = (char)Console.Read(); // Variável recebe os caracteres
@@ -14,6 +14,8 @@ class Program {
                 acc++;
             }
         }
+
+        Console.WriteLine("Saída:");
 
         if (acc > 4) { // Se o contador for maior que 4, imprime 1
             Console.WriteLine("1");
