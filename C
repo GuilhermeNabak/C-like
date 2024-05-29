@@ -13,6 +13,8 @@ int main() {
     }
   }
 
+  printf("Saída:\n");
+
   if (acc > 4) { //Se o contador for maior que 4, print 1
     printf("1");
   } 
