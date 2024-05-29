@@ -1,10 +1,14 @@
 def main():
     acc = 0  # Inicializa um contador
 
+    print("Entrada:")
+
     for i in range(6):
         jogos = input().strip()  # Variável recebe os caracteres
         if jogos == 'V':  # Se venceu, adiciona 1 ao contador
             acc += 1
+
+    print("Saída:")
 
     if acc > 4:  # Se o contador for maior que 4, imprime 1
         print("1")
