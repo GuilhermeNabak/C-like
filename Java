@@ -6,6 +6,8 @@ public class Main {
         int acc = 0; // Inicializa um contador
         char jogos;
 
+        System.out.println("Resultados do participante:");
+
         for (int i = 0; i < 6; i++) {
             jogos = scanner.next().charAt(0); // Variável recebe os caracteres
             if (jogos == 'V') { // Se venceu, adiciona 1 ao contador
