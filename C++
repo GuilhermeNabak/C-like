@@ -4,7 +4,7 @@ int main() {
     int acc = 0; // Inicializa um contador
     char jogos;
 
-    std::cout << "Resultados do participante:" << std::endl;
+    std::cout << "Entrada:" << std::endl;
 
     for (int i = 0; i < 6; i++) {
         std::cin >> jogos; // Variável recebe os caracteres
@@ -12,6 +12,8 @@ int main() {
             acc++;
         }
     }
+
+    std::cout << "Saída:" << std::endl;
 
     if (acc > 4) { // Se o contador for maior que 4, imprime 1
         std::cout << "1";
